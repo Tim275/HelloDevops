@@ -11,7 +11,7 @@ public class HelloController {
 
     @GetMapping
     public ResponseEntity<String> getGreeting() {
-        String message = "Hello World, Pipeline Successfully Deployed!";
+        String message = "Hello World";
         return ResponseEntity.ok()
                 .body(message);
     }
